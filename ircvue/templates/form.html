@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="formbox">
+        <div class="formtitle center">
+            Register with NickServ
+        </div>
+        <div class="verticalspace"></div>
+
+        <span class="furexpl fl-warning" title="error">Before you can join FurCode IRC, you must register with NickServ.</span>
+        <div class="verticalspace"></div>
+        <input type="text" class="form-control" placeholder="Nickname">
+        <div class="verticalspace"></div>
+        <div class="input-group">
+            <input type="password" class="form-control" placeholder="Password">
+            <span class="input-group-addon">Must be more than 3 characters.</span>
+        </div>
+        <div class="verticalspace"></div>
+        <input type="email" class="form-control" placeholder="E-Mail">
+        <div class="verticalspace"></div>
+        <div class="centerbox">
+            <div class="g-recaptcha" data-sitekey="6LcrMf8SAAAAAHE2w0H8ZUzr00C9G-fRB6ARBAqV"></div>
+        </div>
+        <div class="verticalspace"></div>
+        <div class="centerbox">
+            <button type="submit" class="btn btn-info btn-lg">Register</button>
+        </div>
+    </div>
+{% endblock %}

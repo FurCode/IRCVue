@@ -1,0 +1,121 @@
+/* IRCVue - Default Theme */
+
+html{
+    height: 100%;
+}
+
+.title{
+    font-family:"wf_SegoeUILight", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+    font-weight:lighter;
+    font-size: 70px;
+    padding: 1.5rem;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, #cccccc 0%, #e5e5e5 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #cccccc 0%, #e5e5e5 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #cccccc 0%, #e5e5e5 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cccccc), color-stop(1, #e5e5e5));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #cccccc 0%, #e5e5e5 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(to bottom, #cccccc 0%, #e5e5e5 100%);
+}
+
+.wrap-outer{
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.navbar-brand{
+    font-family:"wf_SegoeUILight", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.wrap-inner{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.hint{
+margin-top: 5px;
+margin-bottom: 25px;
+}
+
+.formbox {
+    background-color: #fff;
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    border-radius: 6px;
+    -moz-box-shadow:    inset 0 0 10px #919191;
+    -webkit-box-shadow: inset 0 0 10px #919191;
+    box-shadow:         inset 0 0 10px #919191;
+    padding: 20px;
+}
+
+.formtitle{
+    font-family:"wf_SegoeUILight", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+    font-weight:lighter;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.verticalspace{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.centerbox{
+    display: inline-block;
+}
+
+.btn-sub{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.fl-warning {
+    border: 1px solid #EA8800;
+    background: url("http://raw.furcode.tk:22560/assets/warn.png") no-repeat 2px 2px #eab31c;
+}
+
+.furexpl {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    box-shadow: outset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    border-radius: 4px;
+    padding: 1px 2px 1px 24px;
+}
